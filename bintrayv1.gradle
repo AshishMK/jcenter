@@ -34,8 +34,8 @@ Properties properties = new Properties()
 properties.load(project.rootProject.file('local.properties').newDataInputStream())
 
 bintray {
-    user = properties.getProperty("bintray.user")
-    key = properties.getProperty("bintray.apikey")
+    user = theashish
+    key = e1c09033b355342bbff8637501c3d21f289f5
 
     configurations = ['archives']
     pkg {
