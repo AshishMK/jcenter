@@ -7,9 +7,9 @@ install {
         // This generates POM.xml with proper parameters
         pom {
             project {
-                packaging 'abar'
+                packaging 'aar'
                 groupId publishedGroupId
-                artifactId artifact
+                artifactId 'recylerView-swipe'
 
                 // Add your description here
                 name libraryName
